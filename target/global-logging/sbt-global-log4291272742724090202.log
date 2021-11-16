@@ -1,0 +1,13 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\usuario\Desktop\personal\SCALA\EJERCICIOS\ejercicios\target\scala-2.13\classes ...
+[error] C:\Users\usuario\Desktop\personal\SCALA\EJERCICIOS\ejercicios\src\main\scala\virtual_wallet\WalletRoutes.scala:43:23: type mismatch;
+[error]  found   : scala.concurrent.Future[BigDecimal]
+[error]  required: akka.http.scaladsl.marshalling.ToResponseMarshallable
+[error]                   .map(_.balance)
+[error]                       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed Nov 24, 2020 4:08:08 PM
+[debug] > Exec(idea-shell, None, None)

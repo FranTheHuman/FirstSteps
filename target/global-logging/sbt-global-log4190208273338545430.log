@@ -1,0 +1,11 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to C:\Users\usuario\Desktop\personal\SCALA\EJERCICIOS\ejercicios\target\scala-2.13\classes ...
+[error] C:\Users\usuario\Desktop\personal\SCALA\EJERCICIOS\ejercicios\src\main\scala\virtual_wallet\WalletJsonFormats.scala:31:26: wrong number of arguments for pattern spray.json.JsObject(fields: Map[String,spray.json.JsValue])
+[error]             case JsObject(
+[error]                          ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 4 s, completed Nov 24, 2020 4:47:12 PM
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,6 @@
+[debug] Acquiring lock on file C:\Users\usuario\Desktop\personal\SCALA\EJERCICIOS\ejercicios\project\target\.sbt-compilation-infos\ejercicios-compile\.sbt-idea-lock ...
+[error] C:\Users\usuario\Desktop\personal\SCALA\EJERCICIOS\ejercicios\src\main\scala\virtual_wallet\WalletJsonFormats.scala:31:26: wrong number of arguments for pattern spray.json.JsObject(fields: Map[String,spray.json.JsValue])
+[error]             case JsObject(
+[error]                          ^
+[error] one error found
+[debug] Releasing lock on file C:\Users\usuario\Desktop\personal\SCALA\EJERCICIOS\ejercicios\project\target\.sbt-compilation-infos\ejercicios-compile\.sbt-idea-lock.

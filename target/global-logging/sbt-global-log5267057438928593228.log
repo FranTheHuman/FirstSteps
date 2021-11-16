@@ -1,0 +1,14 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to C:\Users\usuario\Desktop\personal\SCALA\EJERCICIOS\ejercicios\target\scala-2.13\classes ...
+[error] C:\Users\usuario\Desktop\personal\SCALA\EJERCICIOS\ejercicios\src\main\scala\virtual_wallet\WalletJsonFormats.scala:21:43: Symbol 'type akka.stream.scaladsl.Source' is missing from the classpath.
+[error] This symbol is required by 'method akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport.sprayJsonSourceReader'.
+[error] Make sure that type Source is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.
+[error] A full rebuild may help if 'SprayJsonSupport.class' was compiled against an incompatible version of akka.stream.scaladsl.
+[error]     implicit val UserFormat = jsonFormat4(User)
+[error]                                           ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 4 s, completed Nov 24, 2020 3:01:41 PM
+[debug] > Exec(idea-shell, None, None)
